@@ -1,9 +1,9 @@
 class RootController < ApplicationController
-	def about
+	def contact
 		puts "in about page"
 		render "about"
 	end
-	def contact
+	def about
 		puts "In contact page"
 		render "contact"
 	end
